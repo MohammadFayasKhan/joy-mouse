@@ -29,14 +29,14 @@ Joy Mouse bridges hardware and software by streaming analog joystick data from a
 
 ## Features
 
-**v1.0 — Current Release**
+**v1.0 | Current Release**
 
 - Wired USB joystick control via serial at 250,000 baud
 - Deadzone filtering to eliminate cursor drift at rest
 - Center calibration for accurate neutral position mapping
 - Non-linear acceleration curve (power 2.2) for precision at low displacement and speed at full range
 - Lightweight Python implementation with minimal dependencies
-- Arduino Nano based — compact, affordable, and widely available
+- Arduino Nano based: compact, affordable, and widely available
 
 ---
 
@@ -72,8 +72,8 @@ pip install pyserial pyautogui
 ```
 JoystickMouse/
 |
-+-- JoystickMouse.ino          # Arduino sketch — reads joystick, sends serial data
-+-- JoystickControlMouse.py    # Python controller — applies filtering and moves cursor
++-- JoystickMouse.ino          # Arduino sketch: reads joystick, sends serial data
++-- JoystickControlMouse.py    # Python controller: applies filtering and moves cursor
 +-- Pic.PNG                    # Project hardware photo
 +-- code.png                   # Code reference screenshot
 +-- .gitignore                 # Python and Arduino ignore rules
@@ -206,13 +206,13 @@ pip install pyserial pyautogui
 ls /dev/cu.*        # macOS
 ls /dev/ttyUSB*     # Linux
 
-# Windows — check Device Manager under Ports (COM & LPT)
+# Windows -> check Device Manager under Ports (COM & LPT)
 ```
 
 **5. Set the port in the Python script**
 
 ```python
-# JoystickControlMouse.py — line 13
+# JoystickControlMouse.py, line 13
 ser = serial.Serial('/dev/cu.usbserial-XXXXXXXX', 250000)
 #                   ^-- replace with your actual port
 ```
