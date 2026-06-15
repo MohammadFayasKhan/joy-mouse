@@ -276,14 +276,14 @@ Small nudges produce slow, precise movement. Full displacement produces fast, sw
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="Pic.PNG" alt="Hardware Setup" style="border-radius:8px;"/>
-      <br/>
-      <sub><b>Hardware Setup</b> &nbsp;|&nbsp; Arduino Nano + Joystick on Breadboard</sub>
+      <img src="https://raw.githubusercontent.com/MohammadFayasKhan/joy-mouse/main/Pic.PNG" width="100%" alt="Hardware Setup"/>
+      <br/><br/>
+      <sub><b>🖥️ Hardware Setup</b> &nbsp;|&nbsp; Arduino Nano + Joystick on Breadboard</sub>
     </td>
     <td align="center" width="50%">
-      <img src="code.png" alt="Code Reference" style="border-radius:8px;"/>
-      <br/>
-      <sub><b>Code Reference</b> &nbsp;|&nbsp; Python Controller &amp; Arduino Sketch</sub>
+      <img src="https://raw.githubusercontent.com/MohammadFayasKhan/joy-mouse/main/code.png" width="100%" alt="Code Reference"/>
+      <br/><br/>
+      <sub><b>💻 Code Reference</b> &nbsp;|&nbsp; Python Controller &amp; Arduino Sketch</sub>
     </td>
   </tr>
 </table>
