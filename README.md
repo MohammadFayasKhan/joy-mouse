@@ -19,7 +19,7 @@
 
 ---
 
-## Overview
+## 📖 Overview
 
 Joy Mouse bridges hardware and software by streaming analog joystick data from an Arduino Nano over USB serial, then translating it into precise cursor movement via Python. The pipeline applies deadzone filtering, center calibration, and a non-linear acceleration curve to produce smooth, responsive control.
 
@@ -27,7 +27,7 @@ Joy Mouse bridges hardware and software by streaming analog joystick data from a
 
 ---
 
-## Features
+## ✨ Features
 
 **v1.0 | Current Release**
 
@@ -40,7 +40,7 @@ Joy Mouse bridges hardware and software by streaming analog joystick data from a
 
 ---
 
-## Hardware
+## 🔩 Hardware
 
 | Component | Purpose |
 |---|---|
@@ -52,7 +52,7 @@ Joy Mouse bridges hardware and software by streaming analog joystick data from a
 
 ---
 
-## Software
+## 💻 Software
 
 | Dependency | Version | Purpose |
 |---|---|---|
@@ -67,7 +67,7 @@ pip install pyserial pyautogui
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 JoystickMouse/
@@ -83,7 +83,7 @@ JoystickMouse/
 
 ---
 
-## Arduino Sketch
+## 🔌 Arduino Sketch
 
 **File:** `JoystickMouse.ino`
 
@@ -114,7 +114,7 @@ void loop() {
 
 ---
 
-## Python Controller
+## 🐍 Python Controller
 
 **File:** `JoystickControlMouse.py`
 
@@ -163,7 +163,7 @@ while True:
 
 ---
 
-## Circuit Connections
+## 🔗 Circuit Connections
 
 | Joystick Pin | Arduino Nano Pin | Notes |
 |---|---|---|
@@ -232,7 +232,7 @@ python JoystickControlMouse.py
 
 ---
 
-## How It Works
+## 🧠 How It Works
 
 **Serial Communication**
 The Arduino transmits `x,y` pairs over USB at 250,000 baud (~200 readings/second). Python reads each line with `ser.readline()`.
@@ -270,15 +270,28 @@ Small nudges produce slow, precise movement. Full displacement produces fast, sw
 
 ---
 
-## Screenshots
+## 🖼️ Screenshots
 
-![Hardware Setup](Pic.PNG)
-
-![Code Reference](code.png)
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Pic.PNG" alt="Hardware Setup" style="border-radius:8px;"/>
+      <br/>
+      <sub><b>Hardware Setup</b> &nbsp;|&nbsp; Arduino Nano + Joystick on Breadboard</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="code.png" alt="Code Reference" style="border-radius:8px;"/>
+      <br/>
+      <sub><b>Code Reference</b> &nbsp;|&nbsp; Python Controller &amp; Arduino Sketch</sub>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
@@ -289,13 +302,13 @@ Contribution ideas: click support via `SW` pin, scroll wheel simulation, config 
 
 ---
 
-## License
+## 📄 License
 
 MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## Author
+## 👤 Author
 
 **Mohammad Fayas Khan**
 
