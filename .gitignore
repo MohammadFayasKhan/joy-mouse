@@ -1,0 +1,48 @@
+# ─── macOS System Files ──────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# ─── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ─── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Arduino IDE ──────────────────────────────────────────────────────────────
+*.elf
+*.hex
+*.bin
+*.map
+build/
+.cache/
+
+# ─── Logs & Temp Files ────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.orig
